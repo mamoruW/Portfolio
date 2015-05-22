@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+//skill_data
+$skillClass: htmlSkill cssSkill jsSkill jqSkill illustSkill photoSkill phpSkill;
+$color: #e34c26 #1982d1 #f3c300 #3f5fbf #ff731b #2b9af3 #4f5b93;
+$val: 70 70 30 60 50 40 40;
+$skill_w: 600px;
+$skill_h: 400px;
+$skill_li_h: 40px;
+$skill_margine: (($skill_h - $skill_li_h * length($skillClass)) / (length($skillClass) * 1.2));
+
+//works_photo_image
+$works_image1:
+	'../images/thumbnail/smartphone_sight_1/smartphone_sight_1.png',
+	'../images/thumbnail/Cinemagraph_1/soap_bubble.jpg',
+	'../images/thumbnail/order_form/order_form_1.jpg';
+$works_image2:
+	'../images/thumbnail/portfolio_test/portfolio_test_1.jpg',
+	'../images/thumbnail/prime_spa/prime_spa_001.png',
+	'';
+
+//$work_tag_name: "タグ" "Webサイト" "HTML5" "CSS3" "javascript" "jQuery" "Photoshop" "Illustrator" "aftereffects" "PHP";
+$work_tag_class: tag webTag htmlTag cssTag jsTag jqTag psTag aiTag afTag phpTag;
+$work_tag_color: #FBA848 #2FCDB4 #e34c26 #3366cc #ffe300 #3f5fbf #2b9af3 #ff731b #cb9dff #4f5b93;

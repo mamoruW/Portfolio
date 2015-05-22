@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>works | Portfolio</title>
+	<link rel="stylesheet" href="../css/reset.css" /><!-- リセットcss -->
+	<link rel="stylesheet" href="../css/common.css"><!-- 共通css -->
+	<link rel="stylesheet" href="../css/style.css"><!-- 個別css -->
+	<link href='http://fonts.googleapis.com/css?family=Jacques+Francois+Shadow' rel='stylesheet' type='text/css'><!-- webfont読み込み -->
+</head>
+<body class="work_details">
+<div id="wrapper">
+	<section id="thumbnail">
+		<h1>Works</h1>
+
+		<figure id="sightThumbnail">
+			<a href="http://mbdefault.minibird.jp/test_server/coding/order_form.php"><img src="../images/thumbnail/order_form/order_form_1.jpg" alt="サイトのサムネイル画像"></a>
+			<ul>
+				<li class="no1 tag">タグ</li>
+				<li class="no2 webTag">webサイト</li>
+				<li class="no3 htmlTag">HTML5</li>
+				<li class="no4 cssTag">CSS3</li>
+				<li class="no5 phpTag">PHP</li>
+			</ul>
+		</figure>
+	</section>
+
+	<section id="details">
+		<dl>
+			<dt>サイト名</dt>
+				<dd>匿名</dd>
+			<dt>制作期間</dt>
+				<dd>2015年5月1日〜5月5日</dd>
+			<dt>概要</dt>
+				<dd>ホームページから商品の注文ができるよう、簡単な入力フォームを作成。小規模のため、あえてデータベースは使わず、注文内容はメールにて店舗側と顧客側それぞれに送信する仕様。</dd>
+			<dt>コメント</dt>
+				<dd>ユーザビリティを上げる為にも画面をできるだけすっきり見せたかったので、「商品の届け先は別の住所を使う」場合のフォームはあらかじめ隠しておき、チェックボックスで表示・非表示を切り替えるようにしました。(javascript(jQuery)は使わずCSS3で実装)<br>また、利便性を上げるために、Ajax通信で郵便番号から住所を自動検索する「ajaxzip3」というAPIを使っています。</dd>
+			<dt>担当箇所</dt>
+				<dd>HTML5で骨格部分、PHPでフォームデータを扱うためのロジックを作成
+					<ul>
+						<li>
+							<p>フォーム入力画面</p>
+							<a href="http://mbdefault.minibird.jp/test_server/coding/order_form.php"><img src="../images/thumbnail/order_form/order_form_1.jpg" alt=""></a>
+							<ul>
+								<li class="no1 htmlTag">HTML5</li>
+								<li class="no2 cssTag">CSS3</li>
+								<li class="no3 phpTag">PHP</li>
+							</ul>
+						</li>
+						<li>
+							<p>入力内容確認画面</p>
+							<img src="../images/thumbnail/order_form/order_form_2.jpg" alt="">
+							<ul>
+								<li class="no1 htmlTag">HTML5</li>
+								<li class="no2 phpTag">PHP</li>
+							</ul>
+						</li>
+						<li>
+							<p>必須項目未記入時の処理</p>
+							<img src="../images/thumbnail/order_form/order_form_3.jpg" alt="">
+							<ul>
+								<li class="no1 htmlTag">HTML5</li>
+								<li class="no2 cssTag">CSS3</li>
+								<li class="no3 phpTag">PHP</li>
+							</ul>
+						</li>
+						<li>
+							<p>必須項目未記入時の処理(届け先は別住所を使う場合)</p>
+							<img src="../images/thumbnail/order_form/order_form_4.jpg" alt="">
+							<ul>
+								<li class="no1 htmlTag">HTML5</li>
+								<li class="no2 cssTag">CSS3</li>
+								<li class="no3 phpTag">PHP</li>
+							</ul>
+						</li>
+					</ul>
+				</dd>
+		</dl>
+	</section>
+
+	<footer>
+		<p><small>Copyright &copy; 2015 All Rights Reserved mamoru murakami</small></p>
+	</footer>
+</div><!-- /#wrapper -->
+</body>
+</html>

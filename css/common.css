@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/css?family=Vesper+Libre);
+body {
+  font-family: 'Vesper Libre', serif;
+}
+
+html, body, #wrapper {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  position: relative;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.blur {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.blur:hover {
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+}
+
+.table {
+  display: table !important;
+}
+
+.cell {
+  display: table-cell !important;
+}
+
+.w340 {
+  width: 340px;
+}
+
+.parallax {
+  height: 100vh !important;
+  overflow-y: auto;
+  perspective: 1000px;
+}
+
+.front {
+  transform: scale(0.7) translateZ(0.3px);
+}
+
+.base {
+  transform: translateZ(0);
+}
+
+.back {
+  transform: scale(2) translateZ(-1px);
+}
+
+header {
+  height: 60px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 10;
+}
+nav ul {
+  width: 100%;
+  height: 60px;
+  padding: 0 10%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+nav ul li {
+  float: left;
+  width: 20%;
+  height: 60px;
+}
+nav ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+}
+nav ul li a:hover, nav ul li a:active {
+  background-color: black;
+}
+
+#footer {
+  position: absolute;
+  top: 4000px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  background: #000;
+}
+
+/*# sourceMappingURL=common.css.map */

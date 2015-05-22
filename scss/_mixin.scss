@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+@mixin size($w,$h){
+	width: $w;
+	height: $h;
+}
+@mixin posCenter(){
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	@include transform(translate(-50%,-50%));
+}
+@mixin posAbs($t,$l){
+	position: absolute;
+	top: $t;
+	left: $l;
+}
